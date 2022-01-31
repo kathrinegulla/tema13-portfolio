@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'abcdiatype';
+    src: url(fonts/ABCDiatypeEduLight.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mono';
+    src: url(fonts/ABCFavoritEduMono-Bold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'mono';
+    src: url(fonts/ABCFavoritEduMono-Medium.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+html {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: 'abcdiatype', sans-serif;
+    font-weight: 300;
+    min-height: 100px;
+    padding: 10px 10%; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    cursor: pointer; 
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    padding: 0.5em;
+    text-align: center;
+    z-index: 10;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav li :hover {
+    font-weight: 500;
+    
+}
+
+.topsection {
+    width: 100%;
+
+     /* 
+      height: 80vh;
+      background-image: url('../assets/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.titlecontainer {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-content: center;
+}
+
+hr {
+    width: 100%;
+}
+
+h1 {
+  
+    font-size: 90px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.intro {
+    padding: 50px 20%;
+    text-align: center;
+}
+
+.intro p{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+main {
+    font-family: 'abcdiatype', sans-serif;
+    font-weight: 300;
+    position: relative;
+    padding-top: 100px;
+}
+
+.projectsection {
+    width: 100vw;
+    padding: 50px 20%;
+    align-items: center;
+}
+
+.works {
+    padding: 50px 20%;
+   
+}
+
+.project {
+    position: relative;
+    max-width: 35vw;
+    min-height: 80vh;
+    background-color: skyblue;
+    background-position-y: center;
+    margin-top: 3vh;
+}
+
+.buttonsection {
+    padding: 50px 20%;
+    align-items: center;
+   
+}
+
+.buttonholder {
+    padding: 50px 20%;
+}
+
+.buttonsection li {
+    display: inline;
+    align-items: center;
+}
+
+.buttonsection li button {
+    font-family: 'abcdiatype', sans-serif;
+    font-weight: 300;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+      
+}
+
+.buttonsection li :hover {
+    background-color:black;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.outroholder {
+    padding: 50px 20%;
+    align-items: center;
+   
+}
+
+.outro {
+    padding: 50px 20%;
+    text-align: center;
+}
+
+.outro button {
+    font-family: 'abcdiatype', sans-serif;
+    font-weight: 300;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+button {
+    color: inherit;
+    text-decoration: none;
+}
+
+.outro li :hover {
+    background-color:black;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: lightcoral;
+    font-family: 'abcdiatype', sans-serif;
+    font-weight: 300;
+    min-height: 10vh;
+}
